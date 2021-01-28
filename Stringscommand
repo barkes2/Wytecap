@@ -1,0 +1,6 @@
+#01/28/2021
+#wytecap
+strings filename
+#command displays printable strings in a file (some of which may include a password to decode)
+#Make sure to clarify file destination if not stored in file manager
+#END
