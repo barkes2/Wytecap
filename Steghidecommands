@@ -1,0 +1,8 @@
+#01/28/2021
+#wytecap
+#if not installed -->sudo apt-get install steghide-->Y 
+steghide info file
+#displays info about a file whether it has embedded data or not
+steghide extract -sf file
+#extracts embedded data from a file
+#END
