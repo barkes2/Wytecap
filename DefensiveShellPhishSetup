@@ -1,0 +1,18 @@
+#01/28/2021
+#wytecap
+#Shellphish is a tool that contains templates for 18 of the most popular sites (mostly social media and email)
+#custom template available
+#To this date it appears that the original host of the clone https://github.com/thelinuxchoice/shellphish.git is no longer available
+#clone can be found here: https://github.com/AbirHasan2005/ShellPhish
+git clone https://github.com/AbirHasan2005/ShellPhish
+cd shellphish/
+#makes a folder on desktop
+ls
+#contents of folder
+chmod 744 shellphish.sh
+#changing permissions of the file so that we as the admin can use it (do not want open access)
+./shellphish.sh
+#launches the tool so you can see the various options others use to phish.
+#Example: phishing of Instagram credentials
+#Enter 1 - for instagram-->two links are generated-->these links are sent to victims in such a way that they are somewhat "convincing" enough..hang on let me test this on myself and see how poor the grammar is.
+#END
