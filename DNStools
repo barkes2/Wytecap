@@ -1,0 +1,5 @@
+#dnsenum.pl is a real PERL script that helps to get MX, A, and other records connected to a domain name
+sudo dnsenum DOMAIN NAME
+#dnsmap (may need to install --> apt-get install dnsmap) helps find phone numbers, contacts, & other subdomains connected to this domain we are searching for
+sudo dnsmap DOMAIN NAME
+#END
