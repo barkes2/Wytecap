@@ -14,5 +14,8 @@ chmod 744 shellphish.sh
 ./shellphish.sh
 #launches the tool so you can see the various options others use to phish.
 #Example: phishing of Instagram credentials
-#Enter 1 - for instagram-->two links are generated-->these links are sent to victims in such a way that they are somewhat "convincing" enough..hang on let me test this on myself and see how poor the grammar is.
-#END
+#Enter 2 - for instagram-->two links are generated-->these links are sent to victims in such a way that they are somewhat "convincing" enough..hang on let me test this on myself and see how poor the grammar is.
+#What happens: Victim clicks the link-->details about IP etc show up in console-->Victim enters log in credentials-->credentials appear in your console-->Victim redirected to real log in page
+#operates on the assumption that victim thinks the redirect is just a buggy log in attempt
+#It appears that shellphish has to stay running for the phisher to receive any info on the victim. Not sure if this is something phishers leave on in background or if this is run in mass batches to leak or steal log in details.
+#END 
