@@ -1,0 +1,5 @@
+#Scanning: detecting the OS type/version
+sudo nmap -O 192.168.1.101
+nmap -p 1-65535 -T4 192.168.1.101
+#where "-p" is all TCP ports and "-T4" is the speed of scanning at which the NMAP has to run
+#END
