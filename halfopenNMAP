@@ -1,0 +1,9 @@
+#01/28/2021
+#wytecap
+sudo nmap -sS -T4 192.168.1.101
+#SYN scan is an NMAP stealthscan that doesnt complete the TCP 3-way handshake
+#1) sends SYN packet to target
+#2) if SYN/ACK frame is recieved back and if target completed connection than the port is listening
+#3) id RST is recieved back than it is assumed the port is closed and no longer active
+#us -sS following nmap command
+#END
