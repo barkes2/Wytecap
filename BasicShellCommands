@@ -1,0 +1,6 @@
+#wicked shell script commands
+echo "Hello World"
+echo $PATH #this is printing the current PATH environment variable
+which ruby
+which echo #using to find a command in PATH
+#conifguring your login script
