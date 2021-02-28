@@ -1,0 +1,4 @@
+sudo ifconfig wlan0 down #disable the interface
+sudo iwconfig wlan0 mode monitor #change from managed to monitor mode
+sudo ifconfig wlan0up #Enable the interface
+iwconfig #check if the mode of operation has been changed!
