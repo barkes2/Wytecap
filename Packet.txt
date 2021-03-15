@@ -1,0 +1,4 @@
+pkmon
+pkmon start --etw
+pkmon stop
+pkmon format filename.et1 -o newfilname.txt
